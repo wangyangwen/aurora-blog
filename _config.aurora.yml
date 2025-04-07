@@ -1,0 +1,134 @@
+---
+#! ---------------------------------------------------------------
+#! Aurora Theme for Hexo - Configuration
+#! ---------------------------------------------------------------
+
+# 站点基本配置
+site:
+  subtitle: 我的Aurora博客
+  author: 键盘上的炼丹师
+  nick: The alchemist on the keyboard
+  description: 这是一个使用Aurora主题的Hexo博客
+  language: zh-CN
+  multi_language: true
+  logo: /image/logo.png
+  avatar: /image/logo.png
+  started_date: 2023-01-01
+
+# 博客作者信息
+authors:
+  # 可以添加多个作者
+  主要作者:
+    name: 键盘上的炼丹师
+    avatar: /image/logo.png
+    link: 
+    description: '热爱技术与分享'
+    socials:
+      github: 
+
+# 菜单配置
+menu:
+  About: true
+  Tags: true
+  Archives: true
+
+# 主题样式配置
+theme:
+  dark_mode: true
+  profile_shape: diamond # 支持 circle, diamond, rounded
+  feature: true
+  gradient:
+    color_1: '#24c6dc'
+    color_2: '#5433ff'
+    color_3: '#ff0099'
+
+# 社交媒体链接
+socials:
+  customs:
+    # 可以添加自定义社交媒体图标和链接
+
+# 网站元数据
+site_meta:
+  cdn: cn
+  favicon:
+  description: 'Aurora主题博客'
+  keywords: 'Hexo, Aurora, Blog'
+  author: '键盘上的炼丹师'
+
+# 插件配置
+# Gitalk评论系统（可选）
+gitalk:
+  enable: false
+  autoExpand: true
+  clientID: ''
+  clientSecret: ''
+  repo: ''
+  owner: ''
+  admin: ['']
+  id: uid
+  language: zh-CN
+  distractionFreeMode: true
+  recentComment: false
+  proxy: ''
+
+# Valine评论系统（可选）
+valine:
+  enable: true
+  app_id:
+  app_key:
+  avatar: ''
+  placeholder: 留下你的想法~
+  visitor: true
+  lang: zh-CN
+  avatarForce: false
+  meta: ['nick', 'mail']
+  requiredFields: ['nick', 'mail']
+  admin: ''
+  recentComment: false
+
+# 复制保护设置
+copy_protection:
+  enable: true
+  author:
+    cn: 作者
+    en: Author
+  link:
+    cn: 本文来自于
+    en: Article is from
+  license:
+    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
+    en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
+
+# 代码高亮设置
+shiki:
+  enable: true
+  backgroundColor: "#1a1a1a" 
+
+footer:
+  # 版权信息
+  copyright:
+    enable: true
+    # 版权年份，使用起始年-当前年（如：2020-2023）
+    # 如果只设置一个年份，只会显示那一年
+    since: 2025
+    # 网站名称/作者
+    name: 键盘上的炼丹师
+        
+  # 自定义页脚链接
+  powered:
+    enable: false
+    # 这将在页脚显示"由 Hexo 强力驱动 | 主题 - Aurora"
+    hexo: false  
+    aurora: false
+    # 若不想显示前面内容，可设置为false
+
+  # 其他链接（例如：隐私政策、使用条款等）
+  custom:
+    enable: true
+    links:
+      - label: 关于我
+        url: /about
+      - label: 联系方式
+        url: mailto:your-email@example.com
+      - label: 隐私政策
+        url: /privacy-policy  
