@@ -5,10 +5,10 @@
 
 # 站点基本配置
 site:
-  subtitle: 我的Aurora博客
+  subtitle: 键盘上的炼丹师博客
   author: 键盘上的炼丹师
   nick: The alchemist on the keyboard
-  description: 这是一个使用Aurora主题的Hexo博客
+  description: 我是一个热爱AI和变成的炼丹师
   language: zh-CN
   multi_language: true
   logo: /image/logo.png
